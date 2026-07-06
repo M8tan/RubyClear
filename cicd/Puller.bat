@@ -1,5 +1,5 @@
 @echo off
-cd .\
+cd ..
 git pull
 timeout /t 2 /nobreak>nul
 exit

@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 set /p Desc=Enter message:
-cd .\
+cd ..
 git add .
 git commit -m "%Desc%"
 git push
