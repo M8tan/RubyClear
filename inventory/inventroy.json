@@ -1,0 +1,37 @@
+[
+    {
+        "Hostname": "SRV-01",
+        "Address": "192.168.1.1",
+        "Location": "Home",
+        "Description": "First server, responsible for something",
+        "Tests": ["TCP", "RDP"]
+    },
+    {
+        "Hostname": "SRV-02",
+        "Address": "192.168.1.2",
+        "Location": "Home",
+        "Description": "Second server, responsible for something else",
+        "Tests": ["TCP", "RDP"]
+    },
+    {
+        "Hostname": "SRV-03",
+        "Address": "8.8.8.8",
+        "Location": "Europe",
+        "Description": "Third server, responsible for something different",
+        "Tests": ["TCP", "RDP", "DNS"]
+    },
+    {
+        "Hostname": "Printer",
+        "Address": "127.0.0.1",
+        "Location": "Home",
+        "Description": "Printing",
+        "Tests": ["TCP"]
+    },
+    {
+        "Hostname": "Router",
+        "Address": "1.7.2.8",
+        "Location": "Home",
+        "Description": "Routing",
+        "Tests": ["DNS"]
+    }
+]
